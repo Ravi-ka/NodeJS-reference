@@ -1,0 +1,20 @@
+{
+  "name": "first-server",
+  "version": "1.0.0",
+  "description": "This is my first server using npm.",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sample.js"
+  },
+  "author": "ka",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0",
+    "nodemailer": "^6.9.4"
+  },
+  "type": "commonjs"
+}
